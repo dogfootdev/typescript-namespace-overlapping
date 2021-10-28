@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #127acc;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  padding: 0.4em 0.8em;
+  line-height: 1;
+  background: #fff;
+  font: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.item {
+  padding: 0.5em;
+}
+
+#gnb {
+  background: #fff;
+}
+
+#gnb ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: yellow;
+}
+
+#gnb a {
+  display: block;
+  text-align: center;
+  padding: 0.6em 1.1em;
+  color: #127acc;
+  text-decoration: none;
+}
+
+#gnb a:hover {
+  color: #025aac;
+  background: hsla(207, 75%, 45%, 0.1);
+}
